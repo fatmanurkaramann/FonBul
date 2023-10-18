@@ -1,1 +1,10 @@
 /* Grid ile sayfa yapısı, kolon row yapısı kurmayı öğren */
+.landing-image-container {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.landing-image-container img{
+  width: 100%;
+  max-width: 100%;
+}
