@@ -1,4 +1,4 @@
-<div class="container-fluid mt-3" *ngFor="let landing of landings">
+<div class="container mt-3" *ngFor="let landing of landings">
   <app-landing-content
     [title]="landing.title"
     [content]="landing.description"
@@ -6,7 +6,7 @@
     [image2Src]="landing.images[1].url"
   ></app-landing-content>
 </div>
-<div class="container-fluid">
+<div class="container">
   <div class="row">
     <div class="col">
       <div class="text-center mt-5">
