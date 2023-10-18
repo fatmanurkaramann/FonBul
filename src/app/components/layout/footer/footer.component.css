@@ -1,0 +1,13 @@
+.container-fluid {
+    background-color: #072541;
+    color: aliceblue;
+  }
+  .underlined-text {
+    --color: aliceblue;
+    --position: center bottom;
+    --width: 100px;
+    --height: 2px;
+    background: linear-gradient(var(--color), var(--color)) var(--position) / var(--width) var(--height) no-repeat;
+    display: inline;
+    padding-bottom: 4px;
+  }

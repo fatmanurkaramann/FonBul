@@ -1,0 +1,32 @@
+<div class="container-fluid mt-3" *ngFor="let landing of landings">
+  <app-landing-content
+    [title]="landing.title"
+    [content]="landing.description"
+    [image1Src]="landing.images[0].url"
+    [image2Src]="landing.images[1].url"
+  ></app-landing-content>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <div class="text-center mt-5">
+        <h1>Fon Dünyasını Keşfetmek için Hemen Başlayın!</h1>
+
+        <div class="card mx-auto mt-5">
+          <div class="card-body">
+            <div class="d-flex flex-column justify-content-center">
+              <h5 class="card-title mt-3">2 YEARS</h5>
+              <h6 class="card-subtitle mb-2 text-muted mt-4">$ 0.5 / MONTH</h6>
+              <p class="card-text mt-5">
+                Fonbul+ Mobil ile tanışmak için daha fazla zaman kaybetmeyin!
+              </p>
+            </div>
+
+            <button class="btn btn-outline-primary mt-5">SATIN AL!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-contact></app-contact>
