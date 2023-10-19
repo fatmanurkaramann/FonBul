@@ -1,13 +1,15 @@
-<div class="row mb-3">
-    <div class="col-lg-6 col-md-12">
-      <h1>{{ title }}</h1>
-      <p>{{ content }}</p>
+<div class="row mb-3 mt-5" [style]="style" [id]="id">
+    <div class="col-lg-6 col-md-12" >
+  <div class="text-center mt-5" >
+    <h1>{{ title }}</h1>
+    <p class="mt-4">{{ content }}</p>
+  </div>
     </div>
-    <div class="col-lg-6 col-md-12">
-      <div class="landing-image-container">
+    <div class="col-lg-6 col-md-12" >
+      <div class="landing-image-container mt-4" >
         <img appLazyLoad [src]="image1Src" alt="resim 1" class="lazy-img" />
         <img appLazyLoad [src]="image2Src" alt="resim 2" id="fonbul2Img" class="lazy-img" />
       </div>
     </div>
   </div>
-  
+

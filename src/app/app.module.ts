@@ -6,7 +6,6 @@ import { LayoutComponent } from './components/layout/layout.component';
 import { HomeComponent } from './components/home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PricingComponent } from './components/pricing/pricing.component';
-import { FeaturesComponent } from './components/features/features.component';
 import { FooterComponent } from './components/layout/footer/footer.component';
 import { LazyLoadDirective } from './components/directives/lazy-load.directive';
 import { LandingContentComponent } from './components/home/landing-content/landing-content/landing-content.component';
@@ -19,7 +18,6 @@ import { ContactComponent } from './components/home/contact/contact.component';
     LayoutComponent,
     HomeComponent,
     PricingComponent,
-    FeaturesComponent,
     FooterComponent,
     LazyLoadDirective,
     LandingContentComponent,

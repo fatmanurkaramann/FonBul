@@ -1,6 +1,6 @@
 .container-fluid {
-    background-color: #072541;
-    color: aliceblue;
+  background: rgb(187,226,236);
+  background: linear-gradient(90deg, rgba(187,226,236,1) 0%, rgba(228,242,245,1) 6%, rgba(239,246,247,1) 91%, rgba(187,226,236,1) 100%);
   }
   .underlined-text {
     --color: aliceblue;

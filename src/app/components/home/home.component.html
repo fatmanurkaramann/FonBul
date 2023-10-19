@@ -1,16 +1,18 @@
-<div class="container mt-3" *ngFor="let landing of landings">
+<div class="container-fluid mt-5" *ngFor="let landing of landings">
   <app-landing-content
+     [id]="landing.id"
     [title]="landing.title"
     [content]="landing.description"
     [image1Src]="landing.images[0].url"
     [image2Src]="landing.images[1].url"
+    [style]="landing.style"
   ></app-landing-content>
 </div>
-<div class="container">
+<div class="container-fluid mt-2" id="buy-container">
   <div class="row">
-    <div class="col">
-      <div class="text-center mt-3">
-        <p>
+    <div class="col-lg-6 col-md-12 mt-5">
+      <div class="text-center" style="margin-top: 6rem!important;">
+        <p >
           Uygulamayı indirmek için App Store veya Google Play Store üzerinden
           ücretsiz olarak indirebilirsiniz. Siz de Fonbul+ indirin, yeni
           deneyimlerin ve fırsatların tadını çıkarın.
@@ -19,25 +21,66 @@
         <h1>Fon Dünyasını Keşfetmek için Hemen Başlayın!</h1>
 
         <div class="d-flex flex-column justify-content-center">
-          <p class="card-text mt-2">
+          <h6 class="card-text mt-2">
             Fonbul+ Mobil ile tanışmak için daha fazla zaman kaybetmeyin!
-          </p>
+          </h6>
         </div>
 
-        <button class="btn btn-outline-primary mt-2">SATIN AL!</button>
+        <button class="btn  mt-5 ms-3 p-3 buy-btn"><i class="bi bi-bag px-2"></i>SATIN AL!</button>
       </div>
     </div>
-    <div class="col-lg-6 mt-4">
-      <div class="landing-image-container">
-        <img src="assets/image.png" />
-        <p>
-          Yeniliğin ve teknolojinin getirdiği avantajları keşfetmek için hazır
-          mısınız? Sizleri mobil uygulamamızla buluşmaya davet ediyoruz.
-          Sorularınız, önerileriniz veya geri bildirimleriniz için her zaman
-          buradayız.
-        </p>
+    <div class="col-lg-6 col-md-12 mt-5">
+      <div class="container">
+        <div class="row" >
+             <div class="col-lg-4" id="buy-image-container">
+          <img src="assets/image.png"class="mt-5" />
+        </div>
+        <div class="col-lg-8">
+          <p class="mt-5" style="margin-top: 6rem!important;">
+            Yeniliğin ve teknolojinin getirdiği avantajları keşfetmek için hazır
+            mısınız? Sizleri mobil uygulamamızla buluşmaya davet ediyoruz.
+            Sorularınız, önerileriniz veya geri bildirimleriniz için her zaman
+            buradayız.
+          </p>
+        </div>
+        </div>
+
+
       </div>
     </div>
   </div>
 </div>
+<div class="container-fluid" id="appStoreContainer">
+  <div class="row">
+    <div class="col-lg-6 col-md-12">
+      <div class="text-center mt-5">
+        <h4>
+          Uygulamayı indirmek için App Store veya Google Play Store üzerinden
+          ücretsiz olarak indirebilirsiniz. Siz de Fonbul+ indirin, yeni
+          deneyimlerin ve fırsatların tadını çıkarın.
+        </h4>
+        <h6 class="mt-5">
+          Yeniliğin ve teknolojinin getirdiği avantajları keşfetmek için hazır
+          mısınız? Sizleri mobil uygulamamızla buluşmaya davet ediyoruz.
+          Sorularınız, önerileriniz veya geri bildirimleriniz için her zaman
+          buradayız.
+        </h6>
+      </div>
+      <div class="buttons">
+        <button class="btn btn-secondary mt-5 ms-5 p-3"><i class="bi bi-apple px-2"></i>App Store</button>
+        <button class="btn btn-secondary mt-5 ms-3 p-3"><i class="bi bi-google-play px-2"></i>Google Play</button>
+      </div>
+
+
+    </div>
+    <div class="col-lg-6 col-md-12 mt-5">
+      <div class="appStoreImg">
+        <img
+          src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/04/2x-en.png?auto=format&q=60&fit=max&w=930"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
 <app-contact></app-contact>

@@ -20,7 +20,7 @@ export class LazyLoadDirective implements OnInit, OnDestroy {
     this.observer = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          this.renderer.addClass(entry.target, 'visible');  // Görünen resimlere "visible" sınıfını ekleyin
+          this.renderer.addClass(entry.target, 'visible');  // Görünen resimlere "visible" sınıfını ekle
           observer.unobserve(entry.target);
         }
       });
