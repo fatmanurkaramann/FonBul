@@ -24,6 +24,7 @@
   height: auto;
 }
 #appStoreContainer {
+  height: 84vh;
   background: rgb(212, 217, 231);
   background: linear-gradient(
     90deg,
@@ -38,6 +39,8 @@
   width: 100%;
   max-width: 100%;
   height: auto;
+  z-index: 9999;
+  margin-top: -160px;
 }
 .buy-btn {
   font-weight: 700;
@@ -49,4 +52,66 @@
     rgb(100, 151, 214) 73%,
     rgb(124, 160, 208, 1) 100%
   );
+}
+.dot {
+  height: 200px;
+  width: 200px;
+  background: rgb(212, 217, 231);
+  background: linear-gradient(
+    90deg,
+    #89cff3 0%,
+    rgb(100, 151, 214) 70%,
+    #89cff3 100%
+  );
+  border-radius: 50%;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  overflow: hidden;
+  margin-left: 60px;
+}
+.dot-2 {
+  height: 50px;
+  width: 50px;
+  background: rgb(212, 217, 231);
+  background: linear-gradient(
+    90deg,
+    #89cff3 0%,
+    rgb(100, 151, 214) 70%,
+    #89cff3 100%
+  );
+  opacity: 0.5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  overflow: hidden;
+}
+.dot-3 {
+  height: 50px;
+  width: 50px;
+  background: rgb(212, 217, 231);
+  background: linear-gradient(
+    90deg,
+    #89cff3 0%,
+    rgb(100, 151, 214) 70%,
+    #89cff3 100%
+  );
+  opacity: 0.3;
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  overflow: hidden;
+  float: inline-end;
+}
+.buttons
+{
+  width: 50%;margin:0 auto;
+}
+.text-center
+{
+  width: 50%;
+  margin:0 auto;
 }
