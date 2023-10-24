@@ -87,6 +87,7 @@
   display: grid;
   grid-gap: 0.5rem;
   grid-template-columns: repeat(2, 1fr);
+
 }
 .text-center {
   width: 50%;
