@@ -8,23 +8,8 @@
   max-width: 100%;
   height: auto;
 }
-#buy-container {
-  background: rgb(187, 226, 236);
-  background: linear-gradient(
-    90deg,
-    rgba(187, 226, 236, 1) 0%,
-    rgba(228, 242, 245, 1) 6%,
-    rgba(239, 246, 247, 1) 91%,
-    rgba(187, 226, 236, 1) 100%
-  );
-}
-#buy-image-container img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
+
 #appStoreContainer {
-  height: 84vh;
   background: rgb(212, 217, 231);
   background: linear-gradient(
     90deg,
@@ -42,17 +27,7 @@
   z-index: 9999;
   margin-top: -160px;
 }
-.buy-btn {
-  font-weight: 700;
-  color: aliceblue;
-  background: rgb(212, 217, 231);
-  background: linear-gradient(
-    90deg,
-    rgba(124, 160, 208, 1) 0%,
-    rgb(100, 151, 214) 73%,
-    rgb(124, 160, 208, 1) 100%
-  );
-}
+
 .dot {
   height: 200px;
   width: 200px;
@@ -65,10 +40,10 @@
   );
   border-radius: 50%;
   display: flex;
-  justify-content: center; /* Center the content horizontally */
-  align-items: center; /* Center the content vertically */
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
-  margin-left: 60px;
+  margin-left: 70px;
 }
 .dot-2 {
   height: 50px;
@@ -106,12 +81,14 @@
   overflow: hidden;
   float: inline-end;
 }
-.buttons
-{
-  width: 50%;margin:0 auto;
+.buttons {
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(2, 1fr);
 }
-.text-center
-{
+.text-center {
   width: 50%;
-  margin:0 auto;
+  margin: 0 auto;
 }

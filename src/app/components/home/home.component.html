@@ -1,6 +1,6 @@
-<div class="container-fluid mt-5" id="appStoreContainer">
+<div class="container-fluid mt-2" id="appStoreContainer">
   <div class="row">
-    <div class="col-lg-6 col-md-12 mt-5">
+    <div class="col-lg-6 col-md-12 mt-5 mb-5">
       <div class="text-center mt-5">
         <h2>
           Uygulamayı indirmek için App Store veya Google Play Store üzerinden
@@ -15,15 +15,15 @@
         </h5>
       </div>
       <div class="buttons mb-3">
-        <button class="btn btn-secondary mt-5 ms-5 p-4">
+        <button class="btn btn-secondary mt-5 ms-2 p-4">
           <i class="bi bi-apple px-3"></i>App Store
         </button>
-        <button class="btn btn-secondary mt-5 ms-4 p-4">
+        <button class="btn btn-secondary mt-5 ms-2 p-4">
           <i class="bi bi-google-play px-3"></i>Google Play
         </button>
       </div>
     </div>
-    <div class="col-lg-6 col-md-12 mt-5">
+    <div class="col-lg-6 col-md-12 mt-5 mb-5">
       <div class="appStoreImg">
         <div style="text-align: center">
           <span class="dot"></span>
@@ -52,49 +52,7 @@
     [style]="landing.style"
   ></app-landing-content>
 </div>
-<div class="container-fluid" id="buy-container">
-  <div class="row">
-    <div class="col-lg-6 col-md-12 mt-2">
-      <div class="text-center" style="margin-top: 6rem !important">
-        <h5>
-          Uygulamayı indirmek için App Store veya Google Play Store üzerinden
-          ücretsiz olarak indirebilirsiniz. Siz de Fonbul+ indirin, yeni
-          deneyimlerin ve fırsatların tadını çıkarın.
-        </h5>
-        <h1 class="mt-5">Fon Dünyasını Keşfetmek için Hemen Başlayın!</h1>
 
-        <div class="d-flex flex-column justify-content-center">
-          <h6 class="card-text mt-2">
-            Fonbul+ Mobil ile tanışmak için daha fazla zaman kaybetmeyin!
-          </h6>
-        </div>
-
-        <button class="btn mt-5 ms-3 p-3 buy-btn">
-          <i class="bi bi- px-2"></i>HEMEN BAŞLAYIN!
-        </button>
-      </div>
-    </div>
-    <div class="col-lg-6 col-md-12 mt-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4" id="buy-image-container">
-            <img src="assets/image.png" class="mt-5" />
-          </div>
-          <div class="col-lg-8">
-            <h5
-              class="mt-5"
-              style="margin-top: 6rem !important; width: 70%; margin: 0 auto"
-            >
-              Yeniliğin ve teknolojinin getirdiği avantajları keşfetmek için
-              hazır mısınız? Sizleri mobil uygulamamızla buluşmaya davet
-              ediyoruz. Sorularınız, önerileriniz veya geri bildirimleriniz için
-              her zaman buradayız.
-            </h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<app-pricing></app-pricing>
 
 <app-contact></app-contact>
