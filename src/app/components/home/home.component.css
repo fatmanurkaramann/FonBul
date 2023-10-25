@@ -82,14 +82,21 @@
   float: inline-end;
 }
 .buttons {
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
-  display: grid;
-  grid-gap: 0.5rem;
-  grid-template-columns: repeat(2, 1fr);
-
 }
 .text-center {
   width: 50%;
   margin: 0 auto;
+}
+button {
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+}
+
+#app-store
+{
+  height: 46px;
 }
