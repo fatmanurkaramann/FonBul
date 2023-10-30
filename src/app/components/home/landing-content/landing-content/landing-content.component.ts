@@ -9,6 +9,8 @@ export class LandingContentComponent {
   @Input() id: string;
   @Input() title: string;
   @Input() content: string;
+  @Input() content2: string;
+
   @Input() image1Src: string;
   @Input() image2Src: string;
   @Input() style: string;

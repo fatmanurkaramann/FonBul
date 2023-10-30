@@ -1,13 +1,4 @@
-.landing-image-container {
-  display: grid;
-  grid-gap: 0.5rem;
-  grid-template-columns: repeat(2, 1fr);
-}
-.landing-image-container img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
+
 
 #appStoreContainer {
   background: rgb(212, 217, 231);
@@ -24,10 +15,12 @@
   width: 100%;
   max-width: 100%;
   height: auto;
-  z-index: 9999;
-  margin-top: -160px;
+  margin-top: -300px;
 }
-
+p{
+  font-family:'Red hat display';
+  font-size: 30px;
+}
 .dot {
   height: 200px;
   width: 200px;
@@ -46,6 +39,7 @@
   margin-left: 70px;
 }
 .dot-2 {
+  z-index: 999;
   height: 50px;
   width: 50px;
   background: rgb(212, 217, 231);
@@ -82,13 +76,23 @@
   float: inline-end;
 }
 .buttons {
-  width: 50%;
+  width: 40%;
   margin: 0 auto;
 }
-.text-center {
-  width: 50%;
+.logo{
+  width: 60%;
   margin: 0 auto;
 }
+.logo img{
+  margin-top:30px;
+  width: 120%;
+}
+
+h5{
+  font-family: 'Roboto';
+  font-size: 23px;
+}
+
 button {
   border: none;
   cursor: pointer;
