@@ -1,17 +1,46 @@
-#buy-container {
-  background: rgb(187, 226, 236);
-  background: linear-gradient(
-    90deg,
-    rgba(187, 226, 236, 1) 0%,
-    rgba(228, 242, 245, 1) 6%,
-    rgba(239, 246, 247, 1) 91%,
-    rgba(187, 226, 236, 1) 100%
-  );
+p
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 19px;
 }
-#buy-image-container img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
+h1{
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #1450A3;
+
+}
+h4{
+  font-family:Tahoma, Geneva, sans-serif;
+  font-size: 25px;
+}
+.column {
+  float: left;
+  width: 35%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
 }
 .buy-btn {
   font-weight: 700;
@@ -24,13 +53,10 @@
     rgb(124, 160, 208, 1) 100%
   );
 }
-.text-center
-{
-  width: 50%;
-  margin:0 auto;
-  margin-top: 6rem !important
+.buttons2 {
+  margin-top: 30px;
 }
-#right-title
+#fonbul-image
 {
-  margin-top: 6rem !important; width: 70%; margin: 0 auto
+  width: 100%
 }

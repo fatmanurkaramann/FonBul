@@ -1,5 +1,3 @@
-
-
 #appStoreContainer {
   background: rgb(212, 217, 231);
   background: linear-gradient(
@@ -15,7 +13,7 @@
   width: 100%;
   max-width: 100%;
   height: auto;
-  margin-top: -300px;
+  margin-top: -340px;
 }
 p{
   font-family:'Red hat display';
@@ -28,7 +26,7 @@ p{
   background: linear-gradient(
     90deg,
     #89cff3 0%,
-    rgb(100, 151, 214) 70%,
+    rgb(113, 159, 215) 70%,
     #89cff3 100%
   );
   border-radius: 50%;
@@ -36,7 +34,8 @@ p{
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  margin-left: 70px;
+  margin-left: 170px;
+
 }
 .dot-2 {
   z-index: 999;
@@ -63,7 +62,7 @@ p{
   background: linear-gradient(
     90deg,
     #89cff3 0%,
-    rgb(100, 151, 214) 70%,
+    rgb(70, 143, 232) 70%,
     #89cff3 100%
   );
   opacity: 0.3;
@@ -104,3 +103,29 @@ button {
 {
   height: 46px;
 }
+p
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 19px;
+}
+h1{
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #1450A3;
+
+}
+h4{
+  font-family:Tahoma, Geneva, sans-serif;
+  font-size: 25px;
+}
+
+
+
+@media screen and (max-width: 600px)
+{
+  .home-text
+  {
+    margin-top: -140px;
+  }
+}
+

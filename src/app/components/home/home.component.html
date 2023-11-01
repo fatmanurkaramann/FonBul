@@ -1,23 +1,5 @@
 <div class="container-fluid mt-2" id="appStoreContainer">
   <div class="row">
-    <div class="col-lg-6 col-md-12 mt-5 mb-3">
-      <div class="text-center logo mt-5">
-        <img
-          src="assets/fonbul_logo_1.png"
-        />
-        <p class="mt-5">
-          Fonbul+ Mobil şimdi cebinizde!
-        </p>
-      </div>
-      <div class="buttons ">
-        <button >
-          <img src="assets/App-store.png" id="app-store">
-        </button>
-        <button>
-          <img src="assets/google-play-badge.png" id="google-play">
-        </button>
-      </div>
-    </div>
     <div class="col-lg-6 col-md-12">
       <div class="appStoreImg">
         <div style="text-align: center">
@@ -29,24 +11,27 @@
         <div style="text-align: center">
           <span class="dot-3"></span>
         </div>
-          <img
-          src="assets/home1.png"
-        />
+        <img src="assets/home1.png" />
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-12 mt-5 mb-3">
+      <div class="text-center logo home-text">
+        <img src="assets/fonbul_logo_1.png" />
+        <p class="mt-5">Fonbul+ Mobil şimdi cebinizde!</p>
+      </div>
+      <div class="buttons">
+        <a class="ms-3" target="_blank" href='https://www.finnet.com.tr/FinnetStore/tr/'>
+          <img src="assets/App-store.png" id="app-store" />
+        </a>
+        <a class="ms-3" target="_blank" href='https://www.finnet.com.tr/FinnetStore/tr/'>
+          <img src="assets/google-play-badge.png" id="google-play" />
+        </a>
       </div>
     </div>
   </div>
 </div>
 
-<div class="container-fluid mt-5" *ngFor="let landing of landings">
-  <app-landing-content
-    [id]="landing.id"
-    [title]="landing.title"
-    [content]="landing.description"
-    [content2]="landing.description2"
-    [image1Src]="landing.images"
-    [style]="landing.style"
-  ></app-landing-content>
-</div>
+<app-landing-content></app-landing-content>
 
 <app-pricing></app-pricing>
 
